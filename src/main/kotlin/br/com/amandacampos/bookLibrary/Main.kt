@@ -1,5 +1,11 @@
 package br.com.amandacampos.bookLibrary;
 
+import org.springframework.boot.SpringApplication
+import org.springframework.boot.autoconfigure.SpringBootApplication
+
+@SpringBootApplication
+open class App
+
 fun main(args: Array<String>) {
-    println("Hello Kotlin!")
+    SpringApplication.run(App::class.java, *args)
 }
